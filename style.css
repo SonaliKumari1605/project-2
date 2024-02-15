@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(44, 43, 43);
+    margin: 0px;
+    padding: 0px;
+}
+/* Navbar */
+.navbar-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 90px 0px 90px;
+}
+.logo{
+    height: 50px;
+}
+.list-grey-flex{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    font-size: larger;
+}
+.list-item-white{
+    color: white;
+}
+.list-item{
+    color: gray;
+}
+.btn{
+    background-color:rgb(44, 43, 43) ;
+    border-color: rgba(255, 136, 0, 0.726);
+    padding: 10px 40px ;
+    color:rgba(255, 136, 0, 0.726) ;
+    border-radius: 10px;
+    font-size: large;
+    align-items: center;
+}
+
+/* Hero Section */
+.content-flex{
+    display: flex;
+    padding: 0px 90px;
+    gap: 130px;
+}
+.left-white{
+    font-size: 50px;
+    color: white;
+}
+.right-dark-grey{
+    padding-top: 65px;
+    color: gray;
+    font-size: 22px;
+
+}
+.image{
+    height: 50%;
+}
